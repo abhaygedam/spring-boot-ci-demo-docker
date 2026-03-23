@@ -9,6 +9,6 @@ public class TestController {
 
     @GetMapping("/")
     public String testDocker(){
-        return "Test Docker Application running";
+        return "Test Docker Application running with automatic build and deploy";
     }
 }
